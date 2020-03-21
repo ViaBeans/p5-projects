@@ -11,7 +11,7 @@ function draw() {
     stroke(255);
     strokeWeight(2);
     for(var angle = 0; angle <= TWO_PI; angle += PI/theta) {
-        for(var t = -3; t <= 3; t+=PI/900) {
+        for(var t = -3; t <= 3; t+=PI/1000) {
             stroke(255);
             line(x_rot(t, angle), y_rot(t, angle), x_rot(t+PI/1000, angle), y_rot(t+PI/1000, angle));
         }
